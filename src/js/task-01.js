@@ -1,9 +1,9 @@
 const test = document.querySelector('ul')
 const item = document.querySelectorAll('.item')
-// console.log("Number of categories:",test.children.length)
+console.log("Number of categories:",test.children.length)
 const set = item.forEach(el => {
-    // console.log(`Category: ${el.firstElementChild.textContent}`)
-    // console.log(`Elements ${el.children[1].childElementCount}`)
+    console.log(`Category: ${el.firstElementChild.textContent}`)
+    console.log(`Elements ${el.children[1].childElementCount}`)
 })
 
 
